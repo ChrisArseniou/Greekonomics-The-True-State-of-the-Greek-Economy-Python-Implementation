@@ -26,7 +26,7 @@ This adaptation seeks to:
 Leveraging my experience working with Eurostat data during my thesis, possible enhancements include:
 - Integration with Eurostat's API (`pandas-datareader`)
 - Multi-country comparative analysis
-- Dynamic dashboard creation (Panel/Voila)
+- Dynamic dashboard creation (Streamlit)
 - Structural economic relationship modeling
 - Sensitivity analysis of key economic parameters
 
