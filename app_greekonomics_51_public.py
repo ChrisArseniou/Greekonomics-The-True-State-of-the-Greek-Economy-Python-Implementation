@@ -75,10 +75,10 @@ def plot_indicator(dataset_id, title, subtitle, y_label, unit_filter=None, filte
 
     combined = combined.drop_duplicates(subset=['geo', 'time'])
 
-    # ✅ Sort
+    # Sort
     combined = combined.sort_values(by=['geo', 'time'])
 
-    # ✅ Drop rows with NaNs or zeros (optional but helps)
+    #Drop rows with NaNs or zeros (optional but helps)
     combined = combined[combined['values'].notna()]
     combined = combined[combined['values'] > 0]
 
@@ -200,5 +200,5 @@ plot_configs = [
 for cfg in plot_configs:
     if cfg[0] == "nama_10_a64_p5":
         plot_sectoral_investment("EL")
-    #else:
-    #    plot_indicator(*cfg)
+    else:
+        plot_indicator(*cfg)
