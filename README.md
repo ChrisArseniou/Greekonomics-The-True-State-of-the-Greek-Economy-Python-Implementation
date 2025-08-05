@@ -1,4 +1,4 @@
-# Greekonomics Survey - Python Adaptation
+# Greekonomics Survey - Python Implementation
 
 This repository contains a Python adaptation of the insightful economic survey originally conducted by **Greekonomics** in [R](https://github.com/AMantes/Greekonomics/tree/main). The project aims to recreate and potentially extend the analysis while paying full homage to the original creator's important work.
 
